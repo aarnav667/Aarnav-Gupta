@@ -1,0 +1,7 @@
+<h1>Your History</h1>
+<ul>
+{% for log in logs %}
+  <li>{{ log["project"] }}</li>
+{% endfor %}
+</ul>
+<a href="/dashboard">Back</a>
